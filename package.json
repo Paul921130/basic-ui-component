@@ -1,0 +1,43 @@
+{
+  "name": "basic-ui-component",
+  "version": "1.0.0",
+  "description": "一個用 rollup &amp; storybook 的 react component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev",
+    "build:storybook": "storybook -c .storybook -o docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul921130/basic-ui-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul921130/basic-ui-component/issues"
+  },
+  "homepage": "https://github.com/Paul921130/basic-ui-component#readme",
+  "dependencies": {
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "@types/styled-components": "^5.1.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.9",
+    "styled-components": "^5.3.6",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@storybook/react": "^7.0.9",
+    "@storybook/react-webpack5": "^7.0.9",
+    "babel-loader": "^9.1.2",
+    "babel-preset-react-app": "^10.0.1",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2"
+  }
+}
