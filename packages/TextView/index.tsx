@@ -2,7 +2,7 @@
 import React from 'react';
 import './index.less'
 
-interface TextViewProps {
+export interface TextViewProps {
     children?: React.ReactNode
 }
 
